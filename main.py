@@ -19,7 +19,6 @@
 
 """
 
-import locale
 import requests
 
 from json import load as json_load
