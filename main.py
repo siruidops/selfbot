@@ -128,11 +128,14 @@ def my_handler(client, message):
                 app.edit_message_text(message.chat.id, message.message_id,
                                     o.decode())
             
-            elif message.text.split(" ")[0] == "!exec_py":
+            elif message.text.split(" ")[0] == "!exec_py" or message.text.split("\n")[0] == "!exec_py":
                 file_random_name = "/tmp/"+random_string(16)+".py"
-                
-                _ = open(file_random_name, "w")
-                _.write(" ".join(message.text.split(" ")[1:]))
+                code = "".join(message.text.split("!exec_py"))
+                if code[0] == " " or code[0] == "\n":
+                    code = code[1:]
+
+                _ = open(file_random_name, "wb")
+                _.write(code.encode())
                 _.close()
 
                 try:
