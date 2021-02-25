@@ -5,20 +5,20 @@
 
 # Telegram MTPeoto Robot: Fun
 
-Dependencies:
+## Dependencies
 ```
 python v3.x
 pip
 ```
 
-Install requirements:
+## Install requirements:
 ``` bash
 $ sudo pip3 install -r requirements.txt
 ```
 
 ! Edit api and other setting in config file.
 
-Sample config: 
+## Sample config
 ``` json
 {
     "app_name": "my_account",
@@ -37,7 +37,7 @@ Sample config:
 }
 ```
 
-Guide:
+## Guide
 ``` text
 !on                             Turn on unavailable message.
 !off                            Turn off unavailable message.
@@ -51,16 +51,19 @@ Guide:
 !moon                           A cool animation with moon emojis(🌖🌗🌘🌑🌒🌓🌔🌕🌕).
 ```
 
-Usage:
+## Usage
 ``` bash
 $ python3 main.py
 ```
 
-Docker:
+## Docker
 ``` bash
 $ sudo docker build -t selfbot .
 $ sudo docker run -rm selfbot
 ```
 
-Preview:
+## License
+This project is licensed under the GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Preview
 [![Preview](https://img.youtube.com/vi/q-gaVYZasbg/maxresdefault.jpg)](https://youtu.be/q-gaVYZasbg)
