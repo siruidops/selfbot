@@ -63,4 +63,4 @@ $ sudo docker run -rm selfbot
 ```
 
 Preview:
-<div align="center">![Preview](https://github.com/siruidops/selfbot/raw/main/.tmp/preview.gif)</div>
+![Preview](https://github.com/siruidops/selfbot/raw/main/.tmp/preview.gif)
