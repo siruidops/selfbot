@@ -17,7 +17,7 @@ $ sudo pip3 install -r requirements.txt
 ```
 
 ## Sample config
-You can get Telegram API key with https://my.telegram.org/apps
+You can get Telegram API key with https://my.telegram.org/apps <br/>
 for more information: https://docs.pyrogram.org/intro/setup
 
 ``` json
