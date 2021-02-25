@@ -16,8 +16,6 @@ pip
 $ sudo pip3 install -r requirements.txt
 ```
 
-! Edit api and other setting in config file.
-
 ## Sample config
 ``` json
 {
