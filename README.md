@@ -61,3 +61,6 @@ Docker:
 $ sudo docker build -t selfbot .
 $ sudo docker run -rm selfbot
 ```
+
+Preview:
+<div align="center"><img src="https://github.com/siruidops/selfbot/raw/main/.tmp/preview.gif"/> </div>
