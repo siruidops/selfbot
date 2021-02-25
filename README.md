@@ -63,4 +63,4 @@ $ sudo docker run -rm selfbot
 ```
 
 Preview:
-![Preview](https://github.com/siruidops/selfbot/raw/main/.tmp/preview.gif)
+[![Preview](https://img.youtube.com/vi/q-gaVYZasbg/maxresdefault.jpg)](https://youtu.be/q-gaVYZasbg)
