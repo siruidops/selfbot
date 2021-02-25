@@ -1,0 +1,15 @@
+{
+    "app_name": "my_account",
+
+    "api_id": 7539745,
+    "api_hash": "3021e68df9a7200135725c6331369a22",
+
+    "user_id": 1144212423,
+    "google_lang": "en",
+    "google_num": 5,
+
+    "is_unavailable_default": false,
+    "message_unavailable": "Hello my friend,\njavad is not available, Whenever he is online, I will send him your message.\n\nSource: https://github.com/siruidops/selfbot",
+
+    "channel_chat_id": -1004712264177
+}
